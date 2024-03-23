@@ -103,3 +103,11 @@
 可使用`vite`将jsx转换为js
 
 使用vite将代码工程化即可
+
+## 新知识点 js pragma
+
+```jsx
+// /**@jsx myReact.createElement */
+// 上面这行叫pragma，是babel的一个特性，用来告诉babel如何解析jsx语法
+import { React } from "./core/React.js";
+```
